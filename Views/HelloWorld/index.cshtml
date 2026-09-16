@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Movie List";
+}
+
+@* 
+* This view uses the _Layout.cshtml file as its layout page.
+* use to add page-specific styles to the layout page. can add a section called "Styles" to the layout page, which can be used to add page-specific styles. The section is optional, so if it doesn't exist, the layout page will still render correctly.
+* you can use the @section directive to define a section in your view, and then use the @RenderSection method in your layout page to render the section. The @RenderSection method takes two parameters: the name of the section, and a boolean value indicating whether the section is required or optional. If the section is required and it doesn't exist in the view, an exception will be thrown. If the section is optional and it doesn't exist in the view, nothing will be rendered for that section.
+* you can add as many styles as you want to the "Styles" section, and they will be rendered in the order they are defined in the view. You can also use the @RenderSection method multiple times in your layout page to render different sections in different parts of the page.
+* use comma to separate multiple styles in the "Styles" section, and they will be rendered in the order they are defined in the view. You can also use the @RenderSection method multiple times in your layout page to render different sections in different parts of the page.
+*@
+@section Styles {
+    <link rel="stylesheet" href="~/css/movie-list.css" />
+}
+
+@**@ This view uses the _Layout.cshtml file as its layout page.
+@**@ used to add page-specific scripts to the layout page.
+@section Scripts {
+    <script src="~/js/movie-list.js"></script>
+}
+
+<h2>My Movie List</h2>
+
+<p>Hello from our View Template!</p>
