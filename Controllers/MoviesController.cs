@@ -174,6 +174,11 @@ namespace MvcMovie.Controllers
         // POST: Movies/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        // NOTE: Instead of changing the method name to DeleteConfirmed, and using the ActionName("Delete") to point to the DeleteConfirm, you can just add another parameter to the Delete method, and use the [HttpPost] attribute to differentiate between the GET and POST requests. This way, you can keep the method name as Delete, and it will still work correctly for both GET and POST requests.
+        // Example: 
+        // [HttpPost]
+        // [ValidateAntiForgeryToken]
+        // public async Task<IActionResult> Delete(int id, bool notUsed)
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var movie = await _context.Movie.FindAsync(id);
