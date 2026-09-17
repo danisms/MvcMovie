@@ -21,7 +21,6 @@ C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\scopedcss\bundle\MvcMovie.styles.css
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\scopedcss\projectbundle\MvcMovie.bundle.scp.css
-C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\8151r5ozgn-{0}-b9sayid5wm-b9sayid5wm.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\dqa1xiugtd-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\6clnpnw2tb-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\gln79jq0fq-{0}-bqjiyaj88i-bqjiyaj88i.gz
@@ -83,8 +82,6 @@ C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\7tpgvl3x37-{0}-muycvpuwrr-muycvpuwrr.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\kk6x8kwsgs-{0}-87fc7y1x7t-87fc7y1x7t.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\u23ny76nnj-{0}-mlv21k5csn-mlv21k5csn.gz
-C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\1kt5hl28no-{0}-srdz53kpfw-srdz53kpfw.gz
-C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\xzd9bq0s9u-{0}-srdz53kpfw-srdz53kpfw.gz
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\staticwebassets.build.json
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\staticwebassets.development.json
@@ -371,3 +368,6 @@ C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\MvcMovie.csproj.AssemblyReference.cache
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\MvcMovie.csproj.Up2Date
 C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\MvcMovie.sourcelink.json
+C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\1kt5hl28no-{0}-0dqy72afyv-0dqy72afyv.gz
+C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\xzd9bq0s9u-{0}-0dqy72afyv-0dqy72afyv.gz
+C:\Users\Danism\Documents\BYU-Idaho\CSE-325 - .NET - Software Development\W.K 2\Learning\Activity\MvcMovie\obj\Debug\net10.0\compressed\8151r5ozgn-{0}-079k1jums3-079k1jums3.gz

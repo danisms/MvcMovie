@@ -21,12 +21,15 @@ namespace MvcMovie.Controllers
 
         // GET: Movies
         // GET: Movies
-        public async Task<IActionResult> Index(string movieGenre, string searchString)
+        public async Task<IActionResult> Index(int? miniYear, string movieGenre, string searchString)
         {
             if (_context.Movie == null)
             {
                 return Problem("Entity set 'MvcMovieContext.Movie'  is null.");
             }
+
+            // Using Date object
+            int movieMiniYearDate = miniYear ?? 0;
 
             // Use LINQ to get list of genres.
             IQueryable<string> genreQuery = from m in _context.Movie
@@ -45,13 +48,19 @@ namespace MvcMovie.Controllers
                 movies = movies.Where(x => x.Genre == movieGenre);
             }
 
-            var movieGenreVM = new MovieGenreViewModel
+            if (miniYear.HasValue)
+            {
+                // return Content($"Filtering movies released after {movieMiniYearDate} is not yet implemented.");
+                movies = movies.Where(x => DateOnly.FromDateTime(x.ReleaseDate).Year >= movieMiniYearDate);
+            }
+
+            var movieYearVM = new MovieYearViewModel
             {
                 Genres = new SelectList(await genreQuery.Distinct().ToListAsync()),
                 Movies = await movies.ToListAsync()
             };
 
-            return View(movieGenreVM);
+            return View(movieYearVM);
         }
 
         [HttpPost]
