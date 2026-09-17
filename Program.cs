@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using MvcMovie.Data;
+using MvcMovie.Models;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +21,17 @@ else
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+// Seed the database with initial data (NOTE: The seeding check if it's already seeded, so it won't duplicate data on subsequent runs)
+if (app.Environment.IsDevelopment())
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var services = scope.ServiceProvider;
+
+        SeedData.Initialize(services);
+    }
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace MvcMovie.Models;
 
@@ -8,10 +9,13 @@ public class Movie
 
     public string? Title { get; set; }
 
-    [DataType(DataType.Date), DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true), Display(Name = "Release Date"), Required(ErrorMessage = "Release date is required"), Range(typeof(DateTime), "1/1/1900", "12/31/2026", ErrorMessage = "Release date must be between 1/1/1900 and 12/31/2026")]
+    [DataType(DataType.Date), DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true), Display(Name = "Release Date"), Required(ErrorMessage = "Release date is required")]
     public DateTime ReleaseDate { get; set; }
 
     public string? Genre { get; set; }
-    
+
+    [Column(TypeName = "decimal(18, 2)")]
     public decimal Price { get; set; }
+
+    public string? Rating { get; set;}
 }
