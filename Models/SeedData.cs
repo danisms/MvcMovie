@@ -52,6 +52,50 @@ public static class SeedData
                     Price = 3.99M,
                     Rating = "PG-16"
                 }
+
+                ,
+
+                new Movie
+                {
+                    Title = "Scorpion",
+                    ReleaseDate = DateTime.Parse("2014-09-22"),
+                    Genre = "Action",
+                    Price = 49.99M,
+                    Rating = "TV-14"
+                }
+
+                ,
+
+                new Movie
+                {
+                    Title = "Prison Brake",
+                    ReleaseDate = DateTime.Parse("2005-08-29"),
+                    Genre = "Action",
+                    Price = 10.99M,
+                    Rating = "TV-14"
+                }
+
+                ,
+
+                new Movie
+                {
+                    Title = "Limitless - Episode",
+                    ReleaseDate = DateTime.Parse("2011-03-18"),
+                    Genre = "Scifi",
+                    Price = 00.00M,
+                    Rating = "PG-13"
+                }
+
+                ,
+
+                new Movie
+                {
+                    Title = "Flash",
+                    ReleaseDate = DateTime.Parse("2023-06-16"),
+                    Genre = "Scifi",
+                    Price = 11.99M,
+                    Rating = "PG-13"
+                }
             );
             context.SaveChanges();
         }
